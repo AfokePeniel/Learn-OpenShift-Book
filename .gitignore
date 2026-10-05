@@ -1,0 +1,22 @@
+# Cluster credentials and tokens
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Private keys and certificates
+*.key
+*.pem
+*.crt
+*.csr
+
+# htpasswd user files
+*htpasswd*
+
+# Local secrets and environment files
+.env
+*.env
+secrets/
+
+# Editor and OS files
+.vscode/
+.DS_Store
