@@ -82,5 +82,5 @@ This is a public repository. Passwords, tokens, kubeconfig files, private keys a
 ## References
 
 - Book: *Learn OpenShift, Second Edition* (Packt)
-- Book code: https://github.com/PacktPublishing/LearnOpenShift-Second-Edition
+- Book code: https://github.com/PacktPublishing/Learn-OpenShift-Second-Edition
 - ROSA documentation: https://docs.openshift.com/rosa/
