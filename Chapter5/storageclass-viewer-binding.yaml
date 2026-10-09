@@ -1,0 +1,12 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding          # cluster-wide, so no namespace
+metadata:
+  name: storageclass-viewer-afoke
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: storageclass-viewer       # the role being given
+subjects:
+- apiGroup: rbac.authorization.k8s.io
+  kind: User
+  name: afoke                     # the user getting it

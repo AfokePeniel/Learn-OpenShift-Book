@@ -1,0 +1,12 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole                 # cluster-wide, so no namespace
+metadata:
+  name: storageclass-viewer
+rules:
+- apiGroups:
+  - storage.k8s.io                # storage API group
+  resources:
+  - storageclasses                # what the rule applies to
+  verbs:
+  - get
+  - list
